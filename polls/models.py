@@ -1,9 +1,8 @@
-import datetime
-
 from __future__ import unicode_literals
 from django.db import models
 from django.utils import timezone
 
+import datetime
 
 
 class Question(models.Model):
